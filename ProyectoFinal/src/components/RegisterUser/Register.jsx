@@ -32,10 +32,10 @@ export default function Register() {
     event.preventDefault();
     if (Object.keys(errors).length === 0) {
       try {
-        const response = await axios.post("https://backend-henry-pf.onrender.com/user/create-customer", userData);
+        const response = await axios.post("http://localhost:3001/user/create-customer", userData);
         // const { name } = response.data;
         console.log("ddddd", response.data);
-        await axios.post("https://backend-henry-pf.onrender.com/auth/wellcome", {
+        await axios.post("http://localhost:3001/auth/wellcome", {
         email: userData.email,
       });
       Swal.fire({

@@ -24,7 +24,7 @@ import { getUserInfoFromLocalStorage } from "../../../helpers/AuthToken";
 export const getAllFurnitures = () => {
   return async (dispatch) => {
     try {
-      const response = await axios.get("https://backend-henry-pf.onrender.com/product");
+      const response = await axios.get("http://localhost:3001/product");
 
       // Ordenar los datos por id de menor a mayor
       const sortedData = response.data.sort((a, b) => a.id - b.id);
@@ -40,7 +40,7 @@ export function getFurnituresByName(name) {
   return async (dispatch) => {
     try {
       const response = await axios.get(
-        `https://backend-henry-pf.onrender.com/product?name=${name}`
+        `http://localhost:3001/product?name=${name}`
       );
       dispatch({ type: GET_FURNITURES_BY_NAME, payload: response.data });
     } catch (error) {
@@ -97,7 +97,7 @@ export function crearOrden(orden) {
   return async (dispatch) => {
     try {
       console.log("actions:::", orden);
-      const URL = "https://backend-henry-pf.onrender.com/order/create";
+      const URL = "http://localhost:3001/order/create";
       await axios.post(URL, orden);
 
       dispatch({ type: CREAR_ORDEN, payload: orden });
@@ -112,7 +112,7 @@ export const loginSuccess = (form) => {
   return async function (dispatch) {
     try {
       const response = await axios.post(
-        "https://backend-henry-pf.onrender.com/auth/login",
+        "http://localhost:3001/auth/login",
         form
       );
       const { tokenSession,data } = response.data;
@@ -128,7 +128,7 @@ export const loginSuccess = (form) => {
 export const loginGetUser = (token) => {
   return async function (dispatch) {
     try {
-      const response = await axios.get("https://backend-henry-pf.onrender.com/user/auth", {
+      const response = await axios.get("http://localhost:3001/user/auth", {
         headers: {
           Authorization: token,
         },
@@ -153,7 +153,7 @@ export const logout = () => {
 export function setState(email,estado){
   return async (dispatch) =>{
     try {
-      const URL = `https://backend-henry-pf.onrender.com/order/update?email=${email}&estado=${estado}`
+      const URL = `http://localhost:3001/order/update?email=${email}&estado=${estado}`
       await axios.put(URL)
     } catch (error) {
       console.log("no se pudo actualizar");

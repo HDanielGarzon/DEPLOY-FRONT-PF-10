@@ -16,7 +16,7 @@ function MyOrders() {
     const fetchOrdersFromDB = async () => {
       setIsLoading(true);
       try {
-        const response = await axios.get(`https://backend-henry-pf.onrender.com/order/get/${email}`);
+        const response = await axios.get(`http://localhost:3001/order/get/${email}`);
         const orders = response.data;
         setOrdersFromDB(orders);
         setIsLoading(false);
@@ -88,7 +88,7 @@ export default MyOrders;
 
 //   const actualizarEstadoOrden = async (ordenId) => {
 //     try {
-//       await axios.get(`https://backend-henry-pf.onrender.com/order/update-orden?ordenId=${ordenId}&estado=completado`);
+//       await axios.get(`http://localhost:3001/order/update-orden?ordenId=${ordenId}&estado=completado`);
 
 //       const updatedOrders = ordersFromDB.map(order => {
 //         if (order.ordenId === ordenId) {
@@ -106,7 +106,7 @@ export default MyOrders;
 //     const fetchOrdersFromDB = async () => {
 //       setIsLoading(true);
 //       try {
-//         const response = await axios.get(`https://backend-henry-pf.onrender.com/order/get/${email}`);
+//         const response = await axios.get(`http://localhost:3001/order/get/${email}`);
 //         const orders = response.data;
 //         setOrdersFromDB(orders);
 //         setIsLoading(false);
@@ -234,7 +234,7 @@ export default MyOrders;
 //     const fetchOrdersFromDB = async () => {
 //       setIsLoading(true);
 //       try {
-//         const response = await axios.get(`https://backend-henry-pf.onrender.com/order/get/${email}`);
+//         const response = await axios.get(`http://localhost:3001/order/get/${email}`);
 //         const orders = response.data;
 //         localStorage.setItem('orders', JSON.stringify(orders));
 //         setOrdersFromDB(orders);
@@ -308,7 +308,7 @@ export default MyOrders;
       // Si no hay órdenes almacenadas en localStorage, se obtienen las órdenes de la base de datos
       const fetchOrdersFromDB = async () => {
         try {
-          const response = await axios.get(`https://backend-henry-pf.onrender.com/order/get/${email}`);
+          const response = await axios.get(`http://localhost:3001/order/get/${email}`);
           const orders = response.data;
 
           // Almacena las órdenes en localStorage para futuras visitas
@@ -359,7 +359,7 @@ export default MyOrders;
 //   useEffect(() => {
 //     const fetchOrders = async () => {
 //       try {
-//         const response = await axios.get(`https://backend-henry-pf.onrender.com/order/get/${email}`);
+//         const response = await axios.get(`http://localhost:3001/order/get/${email}`);
 //         setOrders(response.data);
 //       } catch (error) {
 //         console.error('Error al obtener las órdenes:', error);
@@ -451,7 +451,7 @@ export default MyOrders;
 //   useEffect(() => {
 //     const fetchOrders = async () => {
 //       try {
-//         const response = await axios.get(`https://backend-henry-pf.onrender.com/order/get/${email}`);
+//         const response = await axios.get(`http://localhost:3001/order/get/${email}`);
 //         setOrders(response.data); // Guardar los datos en el estado
 //       } catch (error) {
 //         console.error('Error al obtener las órdenes:', error);
@@ -502,7 +502,7 @@ export default MyOrders;
 // import { useSelector } from "react-redux";
 // function MyOrders() {
 //   const email = useSelector((state)=>state.email)
-//    // const URL=`https://backend-henry-pf.onrender.com/order/get/${email}`
+//    // const URL=`http://localhost:3001/order/get/${email}`
 //   // const {data} =  axios(URL)
 //   return (
 //     <div>
@@ -522,7 +522,7 @@ import axios from "axios";
 async function MyOrders() {
   const email = useSelector((state)=>state.email)
 
-  // const URL=`https://backend-henry-pf.onrender.com/order/get/${email}`
+  // const URL=`http://localhost:3001/order/get/${email}`
   // const {data} = await axios(URL)
 
 

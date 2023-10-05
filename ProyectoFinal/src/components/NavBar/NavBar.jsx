@@ -54,7 +54,7 @@ const NavBar = ({ cantidadTotal, actualizarCantidadTotal }) => {
             </div>
             <div className={style.divLink} onClick={handleLogout}>
               <Link className={style.container} to="/profile" >
-                Logout
+                Log Out
               </Link>
             </div>
           </div>

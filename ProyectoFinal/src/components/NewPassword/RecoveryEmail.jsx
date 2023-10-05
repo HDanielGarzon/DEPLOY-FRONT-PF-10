@@ -14,7 +14,7 @@ export default function RecoveryEmail() {
         if(!email){
             return new Error;
         }
-      await axios.post("https://backend-henry-pf.onrender.com/auth/recovery", {
+      await axios.post("http://localhost:3001/auth/recovery", {
         email,
       });
 

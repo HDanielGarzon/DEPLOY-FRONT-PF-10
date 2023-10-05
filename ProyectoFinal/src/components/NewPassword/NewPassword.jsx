@@ -23,7 +23,7 @@ export default function NewPassword() {
       }
       console.log("token", token);
 
-      await axios.post("https://backend-henry-pf.onrender.com/auth/change-password", {
+      await axios.post("http://localhost:3001/auth/change-password", {
         token,
         newPassword,
       });

@@ -82,7 +82,7 @@ const BuyCheckoutForm = () => {
         timerProgressBar: true,
         // enviar correo por nodemailer y dirigir despues a /orders
         didClose: async() => {
-          await axios.post("https://backend-henry-pf.onrender.com/auth/buy", {
+          await axios.post("http://localhost:3001/auth/buy", {
             email: email,
           });
           history.push('/orders')
