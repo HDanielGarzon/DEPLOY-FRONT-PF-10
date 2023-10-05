@@ -122,6 +122,7 @@ export const loginSuccess = (form) => {
       dispatch({ type: LOGIN_SUCCESS, payload: tokenSession });
     } catch (error) {
       console.error("Error de inicio de sesión:", error);
+      
     }
   };
 };

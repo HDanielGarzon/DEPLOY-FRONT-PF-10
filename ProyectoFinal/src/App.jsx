@@ -23,6 +23,7 @@ import LoginGetUser from './views/Login/LoginGetUser';
 import { getUserInfoFromLocalStorage } from './helpers/AuthToken';
 import NavBarLanding from './components/NavBarLanding/NavBarLanding';
 import Faq from './views/OtrasPaginas/FAQ';
+import NotFound from './views/NotFound/NotFound';
 
 
 
@@ -85,6 +86,8 @@ function App() {
           <Route exact path='/register' component={Register} /> 
           <Route exact path='/profile' component={LoginGetUser} /> 
           <Route exact path='/faq' component={Faq}/> 
+          <Route exact path='*' component={NotFound}/> 
+
           <Route
             exact
             path='/cart'
