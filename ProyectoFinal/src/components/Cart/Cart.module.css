@@ -1,0 +1,54 @@
+.eliminar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    border-radius: 7px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: aliceblue;
+  }
+  
+  .eliminar button {
+    height: 30px;
+    text-align: center;
+    line-height: 0%;
+    font-size: 12px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  a {
+    margin: 20px;
+    color: black;
+    font-size: 20px;
+    text-align: center; 
+  }
+  
+  a:hover {
+    color: rgb(241, 57, 57);
+  }
+  
+  .finalizar {
+    border: 1px solid black;
+    height: 20px;
+    text-decoration: none;
+    padding: 8px;
+    display: block; 
+    text-align: center;
+    background-color: #333;
+    color: azure;
+    font-size: 15px;
+    border-radius: 10px;
+    margin: 0 auto; /* Centra horizontalmente */
+    margin-top: 30px; 
+  }
+  
+  .carrito {
+    display: block; 
+    margin: 0 auto; 
+  }
+  

@@ -1,0 +1,147 @@
+/* Contact.module.css */
+
+.contactanos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #755c5c;
+  height: 800px;
+  width: 900px;
+  flex-direction: column;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin: auto; /* Centrar horizontalmente */
+
+}
+
+.contactanos p {
+  margin: 50px;
+  text-align: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: whitesmoke;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  width: 100%; /* Ancho completo para el formulario */
+  max-width: 400px; /* Ancho máximo del formulario */
+  margin: 0 auto; /* Centrar el formulario horizontalmente */
+  text-align: center; /* Centrar el contenido de los campos de entrada */
+}
+
+/* Estilos para los inputs y labels */
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  font-size: 16px;
+  width: 100%; /* Ancho completo para el label */
+}
+
+
+textarea {
+  margin: 10px;
+  text-align: center;
+  width: 400px; /* Ancho completo para los inputs y textarea */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: none;
+}
+
+/* Estilos para el botón */
+.button {
+  padding: 10px 20px;
+  background-color: rgb(49, 48, 48);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Ancho completo para el botón */
+  max-width: 200px; /* Ancho máximo del botón */
+  margin: 0 auto; /* Centrar el botón horizontalmente */
+}
+
+.button:hover {
+  background-color: rgb(49, 48, 48);
+}
+
+/* Estilos para los títulos y párrafos */
+h3, h4 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0;
+}
+
+/* Estilos para el modal */
+.modalContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+}
+
+.modal {
+  background-color: #797070;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.modal h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.modal p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.modal button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.modal button:hover {
+  background-color: #0056b3;
+}
+
+body {
+  background-color: #6d6666;
+}
+
+.error {
+  color: rgb(76, 2, 2);
+}
+
+.input {
+ margin-left: +40px;
+}
+
+.cartContainer{
+  margin-right: -80px;
+}

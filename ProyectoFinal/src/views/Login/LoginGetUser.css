@@ -1,0 +1,44 @@
+.user-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  background-color: whitesmoke;
+  font-family: cursive;
+  color: rgba(2, 2, 56, 0.699);
+  width: 400px;
+  height: 650px;
+  border-radius: 15px;
+  padding: 5px;
+  margin-top: 35px; 
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  margin-left: 700px;
+  
+}
+
+
+.user-detail img {
+  height: 130px;
+  width: 130px;
+}
+
+.open {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.hidden {
+  display: none;
+}
+
+.close {
+  border-radius: 82px;
+  padding: 6px;
+  font-size: 36px;
+  align-content: flex-start;
+  cursor: pointer;
+  height: 45px;
+  width: 18px;
+}

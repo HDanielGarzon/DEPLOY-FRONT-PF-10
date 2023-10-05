@@ -1,0 +1,115 @@
+/* Checkout.module.css */
+
+.formulario {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .descripcion {
+    margin: 20px;
+    background-color: yellow;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    margin: 40px;
+   
+  }
+  
+  .finalizar {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    border-radius: 7px;
+    padding: 10px;
+    background-color:#0056b3;
+    border: 1px solid #333;
+    color:whitesmoke;
+    text-decoration: none;
+  }
+  
+  .orden {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    padding: 50px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  input,
+  textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .orderId {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color:yellow;
+    margin-top: -10px;
+    font-size: 25px;
+    height: 100px;
+    width: 300px;
+    margin-left: 70px;
+  }
+  
+  /* Estilo para el input de teléfono */
+.telefono {
+  -moz-appearance: textfield; /* Firefox */
+  appearance: textfield; /* Otros navegadores */
+  width: 100%; /* Mantener el ancho igual que los demás inputs */
+}
+
+/* Estilo para ocultar las flechas en navegadores WebKit (como Chrome y Safari) */
+.telefono::-webkit-inner-spin-button,
+.telefono::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+
+.products{
+  text-decoration: none;
+  margin: 0 auto;
+
+}
+
+.pagar2{
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  border-radius: 7px;
+  padding: 10px;
+  background-color:#0056b3;
+  border: 1px solid #333;
+  color:whitesmoke;
+
+
+}
+
+.pagar2 button{
+  text-decoration: none;
+
+}

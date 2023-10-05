@@ -1,0 +1,90 @@
+.contenedor {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; /* Alinea elementos en fila horizontal */
+  background-color: aliceblue;
+  font-family: cursive;
+  color: rgba(2, 2, 56, 0.699);
+  width: 800px;
+  height: 450px;
+  border-radius: 15px;
+  padding: 5px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  margin-top: 50px;
+  margin-left: center;
+}
+
+.errors {
+  font-size: 12px;
+  font-family: cursive;
+  color: rgb(238, 103, 103);
+}
+
+.submit {
+  color: rgba(2, 2, 56, 0.699);
+  background-color: rgba(26, 214, 120, 0.63);
+  font-size: 10px;
+  border: 1px solid black;
+  font-family: cursive;
+  border-radius: 12px;
+  margin-right: 0px;
+}
+
+hr {
+  margin-right: -30px;
+}
+
+.submit:hover {
+  background-color: #333;
+}
+
+.contenedor label {
+  text-align: left; /* Alinea el texto de los labels a la izquierda */
+  font-family: cursive;
+  margin-right: 10px; /* Espacio entre labels e inputs */
+}
+
+.contenedor img {
+  display: flex;
+  margin-top: 20px;
+  margin-left: -60px;
+  width: 150px;
+  margin-right: 70px; /* Espacio entre el logo y los inputs */
+  border: 0.1px solid rgb(201, 201, 157);
+  margin: px;
+}
+
+input {
+  margin-top: 0px;
+  background-color: #333;
+  color: azure;
+  width: 100%;
+  max-width: 300px;
+  margin: 5px;
+  font-family: cursive;
+}
+
+/* Para asegurarse de que los inputs tengan la misma altura */
+input[type="text"] input[type="password"] {
+  height: 15px;
+}
+
+.cuenta {
+  text-decoration: none;
+  margin-bottom: 0px;
+}
+.miniContainer {
+  width: 381px;
+  /* height: calc(87vh - 114px); */
+  /* top: 92px; */
+  margin: auto;
+  border: solid;
+  padding: 40px;
+
+  border-radius: 18px;
+  position: absolute;
+  top: 17%;
+  background-color: white;
+  right: 40%;
+}

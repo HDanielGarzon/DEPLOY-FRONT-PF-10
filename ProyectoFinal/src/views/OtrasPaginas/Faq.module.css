@@ -1,0 +1,64 @@
+
+
+.faqContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    color: rgba(2, 2, 56, 0.699);
+    font: oblique bold 100% cursive;
+    font-size: 16px;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 50px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+  
+  .backButton {
+    border-radius: 82px;
+    padding: 6px;
+    font-size: 30px;
+    align-content: flex-start;
+    cursor: pointer;
+    height: 45px;
+    width: 18px;
+  }
+  
+  .pageTitle {
+    text-align: center;
+    margin-bottom: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: #333;
+    font-family: 'VT323', monospace;
+  }
+  
+  .accordionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  .accordionItem {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .accordionHeader {
+    background-color:#6f4e4ede;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .accordionBody {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+  }
+  

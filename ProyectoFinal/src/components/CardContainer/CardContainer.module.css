@@ -1,0 +1,12 @@
+.cardContainer {
+  display:grid;
+  position:absolute;
+
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  justify-content: center; /* Centra horizontalmente todas las cards en la página */
+  align-content: center; /* Centra verticalmente todas las cards en la página */
+  margin-top: 20px;
+  margin-left: 120px;
+}
+

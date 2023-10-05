@@ -1,0 +1,149 @@
+/* About.module.css */
+
+.about-container {
+    max-width: 1150px;
+    min-height: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #806767;
+
+}
+
+.about {
+    background-color: #6f4e4ede;
+    padding: 20px;
+    padding-top: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: 100%;
+    width: 100;
+}
+
+.about h1 {
+    font-size: 1.1rem;
+    color: whitesmoke;
+}
+
+.about p {
+    font-size: 1.08rem;
+    line-height: 1.5;
+    text-align: left;
+    color: #201f1f;
+}
+
+.about a {
+    color: #eef3f7;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.about a:hover {
+    color: #0055aa;
+}
+
+.tech-title {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: whitesmoke
+    ;
+}
+
+.tech-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+
+
+.tech-container img {
+    width: 60px; 
+    height: 60px; 
+}
+
+.tech-container h1 {
+    font-size: 0.9rem;
+    color: whitesmoke;
+    margin-top: 5px;
+}
+
+
+
+.javascript {
+    text-align: center;
+}
+
+.html {
+    text-align: center;
+}
+
+.css {
+    text-align: center;
+}
+
+.react {
+    text-align: center;
+}
+
+.redux {
+    text-align: center;
+}
+
+.express {
+    text-align: center;
+}
+
+.PostgreSQL {
+    text-align: center;
+}
+
+.Vite {
+    text-align: center;
+}
+
+.foto{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+
+.team-members {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+.team-member {
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+body{
+    width: 100%;
+}
+
+.team-member a {
+text-decoration: none;
+font-size: 16px ;
+}
+
+.team-member h3 {
+font-size: 18px;
+}

@@ -1,0 +1,25 @@
+/* Estilo para el contenedor del ícono de carrito y el contador */
+.cart-container {
+    display: inline-block;
+    position: relative;
+    margin-right: 120px;
+}
+
+/* Estilo para la imagen del carrito */
+.imgCarrito {
+    width: 2.4rem;
+}
+
+/* Estilo para el número de la cantidad */
+.contador {
+    position: absolute;
+    top: -20px; /* Ajusta la posición vertical según tus necesidades */
+    right: -10px; /* Ajusta la posición horizontal según tus necesidades */
+    color: #333; /* Cambia el color del texto si es necesario */
+    border-radius: 50%; /* Hace que el fondo del número sea redondo */
+    padding: 3px 7px; /* Añade espacio alrededor del número */
+}
+
+.imgCarrito:hover {
+    scale: 1.30;
+}

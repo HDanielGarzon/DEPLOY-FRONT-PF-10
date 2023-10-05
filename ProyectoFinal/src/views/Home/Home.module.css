@@ -1,0 +1,92 @@
+.title {
+    font-family: "Brush Script MT", cursive;
+    color:#e55743;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center; 
+   padding-top:5px ;
+  }
+
+  .orderselect {
+    display: inline-block;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .select{ 
+    display: inline-block;
+    margin: 1px;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #333333;
+    color:azure;
+    height: 30px;
+    width: 100px;
+    font: oblique bold 100% cursive;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 3px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+    
+  }
+
+  .filtersContainer {
+    
+    height: auto;
+    width: auto;
+    background: linear-gradient(to bottom, #6f4e4ede, #6f4e4ede);
+    position:relative;
+    align-items: center;
+    margin: 20px;
+    margin-top: 20px;
+    gap: -20px; /* Espacio entre elementos */
+    padding: 10 px;
+    border:0.1px solid rgb(201, 201, 157);
+  }
+
+
+  body {
+    background-color: rgb(230, 230, 230);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+
+
+.selectStyle {
+  color: white;
+  border: 1px solid white;
+  padding: 10 px;
+  border-radius: 5px;
+  font-size: 13px;
+  margin: 10px;
+}
+
+.divSelect {
+  display: inline-flex;
+  position: relative;
+  width: 700px;
+  left: -490px;
+  
+}
+
+.loading {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  scale: 0.50;
+}
+
+.errorText{
+  margin-top: 20px;
+}
+
+
+.footer {
+  margin-top: 125%;
+}

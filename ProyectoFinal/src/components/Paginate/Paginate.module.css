@@ -1,0 +1,50 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 44px 500px;
+  position:absolute;
+  margin-left: 150px;
+  font-size: 10px;
+  max-width: 100%; /* Establece el ancho máximo al 100% del contenedor padre */
+  overflow-x: auto; /* Agrega una barra de desplazamiento horizontal si es necesario */
+  
+}
+.paginate {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  justify-content: space-around; /* Centra horizontalmente los elementos en la cuadrícula */
+  justify-items: center;
+  align-items: center;
+  text-align: center; /* Centra el texto horizontalmente en los botones */
+  margin-left: 400px;
+  margin-bottom: 20px;
+  position: relative;
+
+}
+
+.paginate p, button, h3 {
+  background-color: #6f4e4e7e;
+  padding: 4px 14px;
+  margin: 4px 4px;
+  border-radius: 4px;
+  border: 1px #333  solid;
+  margin-top: 7px;
+  
+
+  
+}
+
+.paginate button:hover {
+    background-color: #e55743;
+    border: 1px #333  solid;
+    cursor: pointer;
+    color: aliceblue;
+    
+  }
+
+  .paginate h3 {
+    background-color: #e55743;
+     
+  }

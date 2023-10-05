@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .container input {
+    height: 20px;
+    width: 270px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 2px solid white;
+  }
+  
+  .container .buttonContainer {
+    display: flex;
+    align-items: center; 
+    margin-top: 7px;
+  }
+  
+  .container button {
+    margin: 7px;
+    background-color: #333333;
+    color: azure;
+    height: 30px;
+    width: 80px; 
+    font: oblique bold 100% cursive;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 3px;
+    padding: 0; 
+    line-height: 30px; /* Alinear verticalmente el texto */
+    border: 1px solid white;
+  }
+  
+  .container button:hover {
+    color: #6f4e4ede;
+    cursor: pointer;
+  }
+  
+  .container input:focus {
+    background-color: white;
+    color: #333;
+  }
+  
+  /* Estilos para el botón de búsqueda */
+  .searchButton {
+    width: 120px; 
+  }
+  
+  /* Estilos para el botón "All" */
+  .allButton {
+    width: 60px; 
+  }
+  

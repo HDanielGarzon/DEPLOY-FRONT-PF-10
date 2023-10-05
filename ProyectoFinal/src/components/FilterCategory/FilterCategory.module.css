@@ -1,0 +1,12 @@
+.selectStyle {
+    background-color: #333;
+    justify-content: flex-start;
+    color: white;
+    border: 1px solid white;
+    padding: 10 px;
+    border-radius: 5px;
+    font-size: 13px;
+    margin: 10px;
+    }
+  
+  

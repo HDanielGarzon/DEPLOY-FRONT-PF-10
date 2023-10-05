@@ -1,0 +1,76 @@
+
+  .container {
+    width: 60%; 
+    top: -50px;
+    height: auto; 
+    margin: 20px auto; 
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    box-shadow: 0px 0px 10px #333333;
+    position: relative;
+    box-shadow: 15px 15px 15px 3px #333333;
+    scale: 0.9;
+  }
+  
+  .header {
+    height: 90px;
+    border-bottom: 3.75px solid #333333;
+    margin-bottom: 15px;
+  }
+  
+  
+  .name {
+    font-size: 15px;
+    font: oblique bold 100% cursive;
+    color: #333;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .name p {
+    font-family: "Brush Script MT", cursive;
+    color: #e55743;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .category {
+    font-size: 18px;
+    color: #333;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .body {
+    background-color: rgb(230, 230, 230);
+  }
+
+  button{
+    cursor: pointer;
+    height: 35px;
+    font-size: 15px;
+    background-color: #333;
+    color:whitesmoke;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 0px;
+  }
+  button:hover {
+  color: #e55743;
+  }
+  
+  .container img {
+    max-width: 100%; 
+    height: min-content; 
+    overflow: auto; /* Habilita el desplazamiento si la imagen es más grande que el contenedor */
+  }
+  
+  .sinStock{
+    display: inline-flex;
+    position: fixed;
+    left: +395px;
+    bottom: 165px;
+    color: red;
+
+  }
